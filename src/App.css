@@ -1,0 +1,86 @@
+.content_box{
+    height: 350px;
+}
+.pointer-on-hover:hover {
+  cursor: pointer;
+}
+
+.img_box{
+    width: 150px;
+    height: 150px;
+}
+.my_content_box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.img_box img{
+    width: 100%;
+}
+.text_area p{
+    font-size: 11px;
+    color: white;
+}
+.content_box{
+    margin: auto;
+}
+.second_input p{
+ font-size: 12px;
+ position: relative;
+ top: 10px;
+}
+.input_on input{
+    width: 100%;
+}
+.input-check{
+    width: 100%;
+    padding: 5px;
+    border: thin solid black;
+    border-radius: 5px;
+}
+.formcheck_container p{
+ font-size: 15px;
+ position: relative;
+ top: 10px;
+}
+.form-check{
+    border: thin solid rgb(93, 101, 102);
+    border-radius: 5px;
+    padding: 5px; 
+}
+.form-check-input{
+    position: relative;
+    left: 25px;
+}
+.form-check-label{
+     position: relative;
+    left: 25px;
+}
+.btn {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(188, 228, 78);
+}
+.result_box p{
+font-size: 11px;
+}
+.result_amount_box{
+     border-top: 3px solid #b1f80d;
+     border-radius: 10px;
+    height: 250px;
+    margin-inline: 10px;
+    color: rgba(194, 188, 180, 0.432);
+    background-color: rgba(75, 78, 72, 0.288);
+}
+.amount_bold{
+    color: #b1f80d;
+    border-bottom: thin solid rgb(107, 101, 101);
+}
+.overterm_amount{
+    color: white;
+}
+.active-div{
+    display: block;
+}
+.inactive-div{
+    display: none;
+}
