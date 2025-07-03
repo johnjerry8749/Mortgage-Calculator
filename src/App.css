@@ -63,6 +63,11 @@
 .result_box p{
 font-size: 11px;
 }
+.input_on p{
+font-size: 15px;
+ position: relative;
+ top: 10px;
+}
 .result_amount_box{
      border-top: 3px solid #b1f80d;
      border-radius: 10px;

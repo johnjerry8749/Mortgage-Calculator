@@ -5,7 +5,7 @@ const Payment = ({activediv, totalPayment, monthlyPayment, clearbtn, submitbtn, 
 
   return (
     
-    <div className="container ">
+    <div className="container " >
         <div className="row lg-mt-4 p-2 d-flex mt-4 justify-content-center content_box">
            <div className="col-12 col-md-4 p-2 my_content_box">
                 <div className="header_bar mt-1 d-flex justify-content-between">
@@ -22,7 +22,7 @@ const Payment = ({activediv, totalPayment, monthlyPayment, clearbtn, submitbtn, 
               </div>     
                 </div>
                  {/* Second Input */} 
-                <div className="header_bar mt-1 d-flex gap-3 justify-content-between second_input">
+                <div className="header_bar mt-1 d-md-flex gap-3 justify-content-between second_input">
                 <div className="input_on">
                 <p>Mortage Terms</p>
                 <div className="input-group">
@@ -75,7 +75,7 @@ const Payment = ({activediv, totalPayment, monthlyPayment, clearbtn, submitbtn, 
             </div> 
             </div>
           {/* RESULT TO SHOW HERE */}
-          <div className= {`row  p-1 text-white text-start ${!activediv ? 'active-div' : 'inactive-div'}`}>
+          <div className= {`row  p-1 text-white text-start ${!activediv ? 'active-div' : 'inactive-div'}`} >
             <div className="col-12 mt-2 border-danger result_box">
               <h6>Your Results</h6>
               <p >Your Resut are shwon below based on the information 
@@ -98,7 +98,7 @@ const Payment = ({activediv, totalPayment, monthlyPayment, clearbtn, submitbtn, 
 
 
           </div>
-           {/* RESULT TO SHOW HERE */}
+           {/* END OF RESULT SHOW */}
            </div>
         </div>
       
